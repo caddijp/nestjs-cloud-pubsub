@@ -1,12 +1,28 @@
 {
   "name": "nestjs-pubsub",
   "version": "1.0.0",
+  "description": "The @google-cloud NestJS module",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/caddijp/nestjs-pubsub.git"
+  },
+  "author": "CADDi Co.,Ltd",
+  "bugs": {
+    "url": "https://github.com/caddijp/nestjs-pubsub/issues"
+  },
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run clean && tsc -p .",
     "clean": "rimraf lib",
     "test": "jest"
   },
+  "keywords": [
+    "nest",
+    "nestjs",
+    "pubsub",
+    "cloud-pubsub",
+    "google-cloud-pubsub"
+  ],
   "peerDependencies": {
     "@google-cloud/pubsub": "^2.0.0",
     "@nestjs/common": "^8.0.0"
