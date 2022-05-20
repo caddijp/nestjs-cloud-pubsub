@@ -25,12 +25,12 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npx lerna exec --no-bail -- 'can-npm-publish && npm publish'
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://npm.pkg.github.com'
-      - run: lerna exec --no-bail -- 'npm publish'
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
