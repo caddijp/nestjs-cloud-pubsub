@@ -1,0 +1,9 @@
+.github/
+.gitignore
+.eslintignore
+.eslintrc
+.prettierignore
+index.ts
+package-lock.json
+tsconfig.json
+coverage/
