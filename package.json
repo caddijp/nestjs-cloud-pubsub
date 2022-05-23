@@ -1,14 +1,14 @@
 {
-  "name": "nestjs-pubsub",
+  "name": "nestjs-cloud-pubsub",
   "version": "8.0.0",
   "description": "The @google-cloud NestJS module",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/caddijp/nestjs-pubsub.git"
+    "url": "ssh://git@github.com/caddijp/nestjs-cloud-pubsub.git"
   },
   "author": "CADDi Co.,Ltd",
   "bugs": {
-    "url": "https://github.com/caddijp/nestjs-pubsub/issues"
+    "url": "https://github.com/caddijp/nestjs-cloud-pubsub/issues"
   },
   "main": "lib/index.js",
   "scripts": {
