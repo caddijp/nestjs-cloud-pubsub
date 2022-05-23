@@ -15,7 +15,7 @@ npm install nestjs-pubsub @google-cloud/pubsub
 
 ```typescript
 @Module({
-  imports: [SlackModule.forRoot({})],
+  imports: [PubsubModule.forRoot({})],
 })
 export class AppModule {}
 ```
