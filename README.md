@@ -1,14 +1,14 @@
-# nestjs-pubsub
+# nestjs-cloud-pubsub
 
-![Actions Status](https://github.com/caddijp/nestjs-pubsub/workflows/Node%20CI/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/caddijp/nestjs-pubsub/badge.svg?branch=chore/setup_actions)](https://coveralls.io/github/caddijp/nestjs-pubsub?branch=chore/setup_actions)
+![Actions Status](https://github.com/caddijp/nestjs-cloud-pubsub/workflows/Node%20CI/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/caddijp/nestjs-cloud-pubsub/badge.svg?branch=chore/setup_actions)](https://coveralls.io/github/caddijp/nestjs-cloud-pubsub?branch=chore/setup_actions)
 
 The [@google-cloud/pubsub](https://github.com/googleapis/nodejs-pubsub) NestJS module
 
 # Install
 
 ```bash
-npm install nestjs-pubsub @google-cloud/pubsub
+npm install nestjs-cloud-pubsub @google-cloud/pubsub
 ```
 
 ## Usage
@@ -38,4 +38,4 @@ PRs accepted.
 
 ## License
 
-[MIT](https://github.com/caddijp/nestjs-pubsub/blob/master/LICENSE) © CADDi Co.,Ltd
+[MIT](https://github.com/caddijp/nestjs-cloud-pubsub/blob/master/LICENSE) © CADDi Co.,Ltd
