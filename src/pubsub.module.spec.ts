@@ -31,9 +31,9 @@ describe('PubsubModule', () => {
     const res = PubsubModule.forRootAsync({});
 
     expect(res.exports).toMatchInlineSnapshot(`
-      Array [
-        Object {
-          "inject": Array [
+      [
+        {
+          "inject": [
             "PUBSUB_MODULE",
           ],
           "provide": "PUBSUB_TOKEN",
@@ -43,21 +43,21 @@ describe('PubsubModule', () => {
     `);
     expect(res.imports).toBeUndefined();
     expect(res.providers).toMatchInlineSnapshot(`
-      Array [
-        Object {
-          "inject": Array [],
+      [
+        {
+          "inject": [],
           "provide": "PUBSUB_MODULE",
           "useFactory": [Function],
         },
-        Object {
-          "inject": Array [
-            Array [],
+        {
+          "inject": [
+            [],
           ],
           "provide": undefined,
           "useClass": undefined,
         },
-        Object {
-          "inject": Array [
+        {
+          "inject": [
             "PUBSUB_MODULE",
           ],
           "provide": "PUBSUB_TOKEN",
