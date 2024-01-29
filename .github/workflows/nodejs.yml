@@ -23,7 +23,3 @@ jobs:
           npm test
         env:
           CI: true
-      - name: Coveralls
-        uses: coverallsapp/github-action@v2.1.1
-        with:
-          github-token: ${{ secrets.github_token }}
