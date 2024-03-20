@@ -47,7 +47,7 @@
     "rxjs": "7.8.1",
     "simple-git-hooks": "2.8.1",
     "ts-jest": "29.1.0",
-    "typescript": "5.0.4"
+    "typescript": "5.4.3"
   },
   "types": "lib/index.d.ts",
   "jest": {
